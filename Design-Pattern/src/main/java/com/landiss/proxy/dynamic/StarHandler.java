@@ -1,4 +1,4 @@
-package com.landiss.proxy.dynamicproxy;
+package com.landiss.proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -13,8 +13,6 @@ public class StarHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        method.invoke(realStar, args);
-        System.out.println("==============");
-        return null;
+        return method.invoke(realStar, args);
     }
 }

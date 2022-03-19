@@ -1,4 +1,4 @@
-package com.landiss.proxy.staticproxy;
+package com.landiss.proxy.dynamic;
 
 public interface Star {
 

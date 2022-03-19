@@ -1,8 +1,8 @@
-package com.landiss.proxy.dynamicproxy;
+package com.landiss.proxy.dynamic;
 
 import java.lang.reflect.Proxy;
 
-public class Client01 {
+public class DynamicTest {
 
     public static void main(String[] args) {
         Star realStar = new RealStar();

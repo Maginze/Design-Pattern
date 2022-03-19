@@ -1,2 +1,4 @@
-package com.landiss.observer;public class Subject {
+package com.landiss.observer;
+
+public class Subject {
 }
